@@ -13,10 +13,13 @@ const moment = require('moment-timezone');
 require('dotenv').config(); 
 
 /* Other Variables */
-let timezone = process.env['TIMEZONE'];
+let timezone = process.env.TIMEZONE;
 let rawCurrentDateTime = new Date();
 let currentDateTime = moment(rawCurrentDateTime).tz(timezone).format('MMMM Do YYYY, h:mm:ss a');
 const port = 3000;
+
+// Paths
+app.use(express.static(path.join(__dirname, 'public')));
 
 /* Use */
 app.use(express.static(path.join(__dirname, 'public')));
@@ -39,7 +42,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/home', function(req, res) {
-    res.send("Something Goes Here")
+    res.sendFile(path.join(__dirname, 'public', '_home/index.html'));
 });
 
 //Invalid Path Redirects To /home
