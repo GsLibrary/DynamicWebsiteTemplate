@@ -9,6 +9,8 @@ const https = require('https');
 const fs = require('fs');
 const moment = require('moment-timezone');
 
+var randomstring = require("randomstring");
+
 /* NPM For Storing Secrets */
 require('dotenv').config(); 
 
@@ -27,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'locked')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(session({
-  secret: process.env['SESSION_SECRET'],
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: true
 }));
