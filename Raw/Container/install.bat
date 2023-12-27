@@ -3,14 +3,25 @@
 :Installation-Process
 title GsLibrary Dynamic Website Template - NodeJS Installation
 echo Installing npm dependencies...
-npm install
+call npm install
 echo Dependencies installed.
+timeout 3 >nul
+goto Choice-Process
 
-set /p run=Run NodeJS Server Now? (Y/N):
+:Choice-Process
+cls
+choice /c YN /m "Run NodeJS Server Now"
+if errorlevel 2 goto Exit-Process
+if errorlevel 1 goto Start-Process
 
-if /I "%run%"=="Y" (
-    echo Starting NodeJS Server...
-    call run.bat
-) else (
-    echo Exiting installation.
-)
+:Start-Process
+cls
+echo Starting NodeJS Server...
+call run.bat
+exit
+
+:Exit-Process
+cls
+echo Exiting installation.
+timeout 3 >nul
+exit
