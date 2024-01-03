@@ -10,7 +10,7 @@ const fs = require('fs');
 const moment = require('moment-timezone');
 const randomstring = require("randomstring");
 
-// dotenv = require('dotenv').config()
+dotenv = require('dotenv').config()
 
 /* Other Variables */
 let timezone = process.env.TIMEZONE || "America/Chicago";
@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(session({
-  secret: "SecretGoesHere", // process.env.TIMEZONE
+  secret: process.env.SECRET_SESSION,
   resave: false,
   saveUninitialized: true
 }));

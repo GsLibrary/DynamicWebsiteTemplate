@@ -5,6 +5,13 @@ title GsLibrary Dynamic Website Template - NodeJS Installation
 echo Installing npm dependencies...
 call npm install
 echo Dependencies installed.
+
+IF EXIST ".env" (
+    REM File exists, skip this part
+) ELSE (
+    echo SECRET_SESSION = %random% > .env
+)
+
 timeout 3 >nul
 goto Choice-Process
 
