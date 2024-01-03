@@ -10,6 +10,8 @@ const fs = require('fs');
 const moment = require('moment-timezone');
 const randomstring = require("randomstring");
 
+// dotenv = require('dotenv').config()
+
 /* Other Variables */
 let timezone = process.env.TIMEZONE || "America/Chicago";
 let rawCurrentDateTime = new Date();
@@ -31,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(session({
-  secret: "SecretGoesHere",
+  secret: "SecretGoesHere", // process.env.TIMEZONE
   resave: false,
   saveUninitialized: true
 }));
