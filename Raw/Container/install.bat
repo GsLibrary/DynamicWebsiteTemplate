@@ -12,6 +12,12 @@ IF EXIST ".env" (
     echo SECRET_SESSION = %random% > .env
 )
 
+IF EXIST "public/delete-me" (
+    del public/delet-me /Q
+) ELSE (
+    REM File exists, skip this part
+)
+
 timeout 3 >nul
 goto Choice-Process
 
