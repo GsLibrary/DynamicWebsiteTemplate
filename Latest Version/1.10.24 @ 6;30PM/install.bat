@@ -15,7 +15,7 @@ IF EXIST ".env" (
 IF EXIST "public\delete-me" (
     del "public\delete-me" /Q
 ) ELSE (
-    REM File does not exist, skip this part
+    REM File exists, skip this part
 )
 
 timeout 3 >nul
