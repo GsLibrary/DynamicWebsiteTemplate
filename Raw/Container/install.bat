@@ -13,7 +13,7 @@ IF EXIST ".env" (
 )
 
 IF EXIST "public/delete-me" (
-    del public/delet-me /Q
+    del public/delete-me /Q
 ) ELSE (
     REM File exists, skip this part
 )
