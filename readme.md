@@ -27,5 +27,5 @@
 
 ###  Credit Goes To
 * **@minhaskamal** for easy redirecting to get the latest build with DownGit. 
-  * [Their GitHub Page]("https://github.com/minhaskamal")
-  * [DownGit Repo]("https://github.com/MinhasKamal/DownGit")
+  * <a href="https://github.com/minhaskamal">Their Github Page</a>
+  * <a href="https://github.com/MinhasKamal/DownGit">DownGit Repo</a>
