@@ -24,6 +24,7 @@
 * Path
 * Random String
 * Request IP
+* Node Fetch
 
 ###  Credit Goes To
 * **@minhaskamal** for easy redirecting to get the latest build with DownGit. 
