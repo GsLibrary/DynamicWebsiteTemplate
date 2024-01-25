@@ -9,6 +9,7 @@ const https = require('https');
 const fs = require('fs');
 const moment = require('moment-timezone');
 const randomstring = require("randomstring");
+const fetch = require('node-fetch');
 
 dotenv = require('dotenv').config()
 
@@ -44,7 +45,6 @@ app.get('/', function(req, res) {
 });
 
 app.get('/home', function(req, res){
-    // res.sendFile(path.join(__dirname, 'public', '_home/index.html'));
     res.render('home');
 });
 
