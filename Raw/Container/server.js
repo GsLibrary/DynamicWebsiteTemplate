@@ -10,6 +10,7 @@ const fs = require('fs');
 const moment = require('moment-timezone');
 const randomstring = require("randomstring");
 const fetch = require('node-fetch');
+const { createCanvas } = require('canvas');
 
 dotenv = require('dotenv').config()
 
