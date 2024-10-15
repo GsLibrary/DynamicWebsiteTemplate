@@ -1,1 +1,0 @@
-res.sendFile(path.join(__dirname, 'public', '_home/index.html'));

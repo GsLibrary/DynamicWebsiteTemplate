@@ -2,7 +2,10 @@
 
 ## An easy-to-download and setup build for a NodeJS servers.
 
-<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.0.5-red?labelColor=2a2a2a" alt="Static Badge"> <a href="http://dwt.gavs.xyz/gen">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-red?labelColor=2a2a2a" alt="Download"> </a> </p>
+<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.0.6-red?labelColor=2a2a2a" alt="Static Badge"> <a href="http://dwt.gavs.xyz/gen">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-red?labelColor=2a2a2a" alt="Download"> </a> </p>
+
+### New Download Service [BETA]
+* /alt.html - Doesn't use DownGit, uses GitHub API
 
 ### This project includes 
 * a file to install the needed packages
@@ -25,6 +28,7 @@
 * Random String
 * Request IP
 * Node Fetch
+* Canvas
 
 ###  Credit Goes To
 * **@minhaskamal** for easy redirecting to get the latest build with DownGit. 
