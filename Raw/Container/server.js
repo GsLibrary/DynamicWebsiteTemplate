@@ -11,6 +11,7 @@ const moment = require('moment-timezone');
 const randomstring = require("randomstring");
 const fetch = require('node-fetch');
 const { createCanvas } = require('canvas');
+const njs = require('newfiesjs')
 
 dotenv = require('dotenv').config()
 
