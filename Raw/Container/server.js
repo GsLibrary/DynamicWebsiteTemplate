@@ -15,6 +15,11 @@ const session = require('express-session');
 const { createCanvas } = require('canvas');
 const dotenv = require('dotenv').config();
 
+/* Possible Additions; Not Added Yet */
+// const cors = require('cors');
+// const morgan = require('morgan');
+// const compression = require('compression');
+
 const app = express();
 
 
