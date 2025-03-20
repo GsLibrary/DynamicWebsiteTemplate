@@ -1,6 +1,6 @@
 {
   "name": "dwt",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "description": "Dynamic Website Template",
   "main": "server.js",
   "scripts": {
