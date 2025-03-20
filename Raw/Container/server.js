@@ -5,6 +5,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs');
 const https = require('https');
+const ini = require('ini');
 const moment = require('moment-timezone');
 const njs = require('newfiesjs');
 const path = require('path');
@@ -55,7 +56,7 @@ app.use(session({
   cookie: { secure: true }
 }));
 
-// Logs Requests By IP and Where
+// Logs Requests By IP and Where - Im probably removing this, i just was curious about the middleware
 app.use((req, res, next) => {
     const clientIp = req.clientIp;
     njs.njsLog(`Incoming request from IP: ${clientIp} - ${req.method} ${req.url}`);
