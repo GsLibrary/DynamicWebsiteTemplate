@@ -6,6 +6,7 @@
 
 ### Recent Changes
 * No longer using a GitHub downloader link, and instead relies on GitHubs API
+* Fixed the URL
 
 ### This project includes 
 * A file to install the needed packages
