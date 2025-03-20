@@ -2,7 +2,7 @@
 
 ## An easy-to-download and setup build for a NodeJS servers.
 
-<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.2.4-red?labelColor=2a2a2a" alt="Static Badge"> <a href="https://dynamicwebtemp.gavs.website/">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-red?labelColor=2a2a2a" alt="Download"> </a> </p>
+<p align="center">  <img src="https://img.shields.io/badge/Latest_Version-1.2.4-cc050d?labelColor=2a2a2a" alt="Static Badge"> <a href="https://dynamicwebtemp.gavs.website/">  <img src="https://img.shields.io/badge/Download_Latest_Version-%E2%96%BC-cc050d?labelColor=2a2a2a" alt="Download"> </a> </p>
 
 ### Recent Changes
 * No longer using a GitHub downloader link, and instead relies on GitHubs API
